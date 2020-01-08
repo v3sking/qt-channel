@@ -1,0 +1,32 @@
+{
+  "name": "qt-channel",
+  "version": "1.0.0",
+  "description": "a util help javascript communicate to backstage on qt webview",
+  "main": "dist/qt-channel.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --display-error-details --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/luanhaoyu_admin/pyqt-destop-app.git"
+  },
+  "keywords": [
+    "qt",
+    "webview",
+    "javascript-channel"
+  ],
+  "author": "luanhy",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "es6-promise": "^4.1.1",
+    "webpack": "^3.9.1",
+    "webpack-dev-server": "^2.9.5"
+  }
+}
